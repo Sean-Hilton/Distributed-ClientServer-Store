@@ -1,7 +1,9 @@
 # Distributed-ClientServer-Store
 Basic online store simulation using Java Rmi
 
+
 ** Place bind address in RemoteAccount.java **
+
 One machine connects via the Remote account and the other, the store client.
 
 
