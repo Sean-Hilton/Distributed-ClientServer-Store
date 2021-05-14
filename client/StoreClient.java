@@ -35,9 +35,10 @@ public class StoreClient {
 		double price;
 		int x = 0;
 		
-		Icommand addItem;   //addItem command
-		Icommand browseItems; // browseItem command
-		Icommand removeItems; //removeItems
+		//Commands
+		Icommand addItem;   
+		Icommand browseItems; 
+		Icommand removeItems; 
 		Icommand updateItems;
 		IItem item;
 		Idepartment groceryDept;
@@ -67,13 +68,13 @@ public class StoreClient {
 		
 		/***
 		 * Presented here is the "menu" that decides which version
-		 * of the "view" will be used. For assignment 3, I plan
-		 * on crafting actual views for each type of user
+		 * of the "view" will be used. 
+		 * 
 		 * 
 		 * Outer switch- Type of user
 		 * 
-		 * Inner switch- Deals with registration type which will
-		 * matter for assignment 3
+		 * Inner switch- Deals with registration type 
+		 * 
 		 * 
 		 ***/
 				
